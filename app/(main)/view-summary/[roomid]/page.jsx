@@ -5,8 +5,6 @@ import { useQuery } from 'convex/react';
 import { useParams } from 'next/navigation';
 import Image from 'next/image';
 import React from 'react';
-import ChatBox from '@/components/ChatBox'; // Assuming you have a ChatBox component
-import SummaryBox from '@/components/SummaryBox'; // Assuming you have a SummaryBox component
 import moment from 'moment'; // Assuming you want to use moment for date formatting
 
 function ViewSummary() {
